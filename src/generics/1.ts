@@ -8,4 +8,6 @@ async function fetchData(url) {
     throw new Error(`Error fetching from ${url}: ${error}`);
   }
 }
+
+const data = await fetchData('https://api.example.com/data');
 */
